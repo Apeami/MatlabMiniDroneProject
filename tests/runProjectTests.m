@@ -1,10 +1,10 @@
 function results = runProjectTests()
 % runProjectTests.m - Run project tests
-% This file runs all the tests registered in the project. To
+% This file runs all the tests registered in the the project. To
 % differentiate actual tests from helper files, the test file should have a
 % "Test" classification in the project.
 
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 % Get current project directory
 p = slproject.getCurrentProject;

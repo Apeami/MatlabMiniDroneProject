@@ -10,10 +10,10 @@ p = slproject.getCurrentProject;
 projectRoot = p.RootFolder;
 % Set Mambo model
 model = 'Mambo';
-% Save variable to .MAT fie for persistence
+% Save variabe to .MAT fie for persistence
 save(fullfile(projectRoot,'mainModels','modelParrot.mat'),'model');
 % Update title
-mainModel = 'parrotMinidroneHover';
+mainModel = 'parrotMinidroneCompetition';
 load_system(mainModel);
 % @todo update the usage of edit-time filter filterOutInactiveVariantSubsystemChoices()
 % instead use the post-compile filter activeVariants() - g2597375
@@ -33,5 +33,5 @@ evalin('base','Sensors.velocityToOpticalFlowGain = 1;');
 evalin('base','Controller.takeoffGain = 0.45;');
 assignin('base','model',model);
 
-%Set PARROT Target
+%Set PAAROT Target
 setPARROTCodeGen;

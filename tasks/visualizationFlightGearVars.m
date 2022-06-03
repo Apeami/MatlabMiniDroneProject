@@ -1,5 +1,5 @@
 %% Visualization Block Variables
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 % Generate Run Script
 
 Visualization.FlightGear.generateRunScript.initialAltitude = '7224';

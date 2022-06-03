@@ -1,6 +1,6 @@
 function asbBusDefinitionEnvironment() 
 % ASBBUSDEFINITIONENVIRONMENT initializes a set of bus objects in the MATLAB base workspace 
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 % Bus object: AtmosphereBus 
 clear elems;

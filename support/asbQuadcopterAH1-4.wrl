@@ -1,5 +1,5 @@
 #VRML V2.0 utf8
-# Copyright 2015-2019 The MathWorks, Inc.
+# Copyright 2015-2018 The MathWorks, Inc.
 
 DEF AH1-4 Transform {
   children [

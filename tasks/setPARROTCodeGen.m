@@ -3,8 +3,7 @@ function setPARROTCodeGen()
 % for code generation for the controller. This is a private function, not
 % meant to be used directly.
 
-% Copyright 2017-2019 The MathWorks, Inc.
-
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Check if the flight control system model and its children are open
 modelList = {'flightControlSystem'};
@@ -37,11 +36,10 @@ for k = 1:length(modelList)
         sigObj = Simulink.Signal;
         sigObj.CoderInfo.StorageClass = 'ImportedExternPointer';
         sigObj.CoderInfo.Identifier = 'imRGB';            
-        set_param(portHandle, 'SignalObject', sigObj);        
+        set_param(portHandle, 'SignalObject', sigObj);
     end
     
     % Only save if model is not opened, just in case there are unsaved changes
     save_system(modelList{k});
 
 end
-

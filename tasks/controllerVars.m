@@ -2,7 +2,7 @@
 
 % This file is derived from the work by Fabian Riether.
 
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 % Control Mixer
 %Ts2Q transforms thrust [Nm] for motors 1 trhough 4 to u_mechanical =[totalThrust;Torqueyaw;pitch;roll]

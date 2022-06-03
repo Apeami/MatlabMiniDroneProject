@@ -1,7 +1,7 @@
 %% Sensors Library Block Variables
 
 % This file is derived from the work by Fabian Riether.
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 % Load data calibration
 load('sensorCalibration.mat');

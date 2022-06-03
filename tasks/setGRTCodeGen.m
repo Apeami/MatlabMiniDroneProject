@@ -3,7 +3,7 @@ function setGRTCodeGen()
 % for code generation for the controller. This is a private function, not
 % meant to be used directly.
 
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Check if the flight control system model and its children are open
 model = {'flightControlSystem'};

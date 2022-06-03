@@ -5,7 +5,7 @@ function trimLinearizeOpPoint()
 % object is assigned to linsys and saved to a .mat file. It uses Simulink
 % Control Design(TM).
 
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 % Obtain variables from workspace
 Vehicle = evalin('base','Vehicle');

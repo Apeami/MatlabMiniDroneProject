@@ -1,6 +1,6 @@
 function asbBusDefinitionCommand() 
 % ASBBUSDEFINITIONCOMMAND initializes a set of bus objects in the MATLAB base workspace 
-% Copyright 2013-2019 The MathWorks, Inc.
+% Copyright 2013-2018 The MathWorks, Inc.
 
 % Bus object: Command 
 clear elems;
@@ -68,32 +68,6 @@ elems(5).Min = [];
 elems(5).Max = [];
 elems(5).DocUnits = '';
 elems(5).Description = '';
-
-elems(6) = Simulink.BusElement;
-elems(6).Name = 'land_drone';
-elems(6).Dimensions = 1;
-elems(6).DimensionsMode = 'Fixed';
-elems(6).DataType = 'boolean';
-elems(6).SampleTime = -1;
-elems(6).Complexity = 'real';
-elems(6).SamplingMode = 'Sample based';
-elems(6).Min = [];
-elems(6).Max = [];
-elems(6).DocUnits = '';
-elems(6).Description = '';
-
-elems(7) = Simulink.BusElement;
-elems(7).Name = 'time_remaining';
-elems(7).Dimensions = 1;
-elems(7).DimensionsMode = 'Fixed';
-elems(7).DataType = 'double';
-elems(7).SampleTime = -1;
-elems(7).Complexity = 'real';
-elems(7).SamplingMode = 'Sample based';
-elems(7).Min = [];
-elems(7).Max = [];
-elems(7).DocUnits = '';
-elems(7).Description = '';
 
 CommandBus = Simulink.Bus;
 CommandBus.HeaderFile = '';

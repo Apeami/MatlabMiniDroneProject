@@ -1,5 +1,5 @@
 %% Enumeration definitions
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Define the required Enums for codegen structure
 Simulink.defineIntEnumType('HAL_ultrasound_command_t',{...

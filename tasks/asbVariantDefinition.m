@@ -1,7 +1,7 @@
 %% asbVariantDefinition.m - Variants definiton
 % This script initializes the variant objects for the quadcopter model.
 
-% Copyright 2017-2019 The MathWorks, Inc.
+% Copyright 2017-2018 The MathWorks, Inc.
 
 % Command
 VSS_COMMAND_SIGBLDR = Simulink.Variant('VSS_COMMAND==0');
